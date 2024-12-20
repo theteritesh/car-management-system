@@ -1,0 +1,8 @@
+[phases.setup]
+apt_pkgs = ["maven", "openjdk-11-jdk"]
+
+[phases.build]
+run = "mvn clean package"
+
+[phases.start]
+run = "java -jar target/carmanagement.jar"
