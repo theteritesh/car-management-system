@@ -12,8 +12,7 @@ This project is a **Car Management System** built with **Spring Boot**. It provi
 
 ## API Endpoints
 
-Base URL: [https://car-management-system-production-0d76.up.railway.app/](https://car-management-system-production-0d76.up.railway.app/)
-
+Base URL: [https://car-management-system-production-3eb5.up.railway.app/](https://car-management-system-production-3eb5.up.railway.app/)
 ### Car Management
 
 | Method | Endpoint         | Description                     | Request Body                                                                                       |
@@ -30,6 +29,8 @@ Base URL: [https://car-management-system-production-0d76.up.railway.app/](https:
 |--------|----------------------|---------------------------|-----------------------------------|
 | GET    | `/api/cars/search`   | Search for cars globally. | `?query=search_term`             |
 
+##  API Documentation
+URL: [https://car-management-system-production-3eb5.up.railway.app/swagger-ui/index.html](https://car-management-system-production-3eb5.up.railway.app/swagger-ui/index.html)
 ## How to Run Locally
 
 1. Clone the repository:
