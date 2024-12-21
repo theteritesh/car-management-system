@@ -28,7 +28,7 @@ public class CarService {
     }
 
     public Car updateCar(Long id, Car carDetails) {
-        Car car = repository.findById(id).orElseThrow();
+        Car car = repository.findById(id).orElseThrow(null);
         car.setName(carDetails.getName());
         car.setModel(carDetails.getModel());
         car.setYear(carDetails.getYear());
